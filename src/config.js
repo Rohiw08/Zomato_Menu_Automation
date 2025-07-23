@@ -13,21 +13,19 @@ export const config = {
         chatGPTResponsePollInterval: 500, // New: Interval for polling ChatGPT response
     },
     selectors: {
-        body: "body",
         // General
-        addCategoryButton: "button ::-p-text(Add Category)",
+        body: "body",
         saveChangesButton: "button ::-p-text(Save Changes)",
         discardDishButton: "xpath///button[normalize-space()='Discard']",
 
         // Category
-        addCategoryModalButton: 'button ::-p-text(Add Category)',
+        addCategoryButton: "button ::-p-text(Add Category)", // Used for both modal and main
         categoryNameInput: 'input[name="categoryName"]',
         categorySubmitButton: 'button[type="submit"]',
 
         // SubCategory
         addSubCategoryButton: 'button ::-p-text(Add Subcategory)',
         subCategoryNameInput: 'input[name="subCategoryName"]',
-        defaultSubcategorySaveButton: 'button ::-p-text(Done)',
         subcategorySaveButton: 'button ::-p-text(Done)',
 
         // Dish
@@ -52,11 +50,11 @@ export const config = {
         nutritionFatInput: 'input[id="Fat count"]',
         nutritionFiberInput: 'input[id="Fibre count"]',
 
-        // submit
+        // Submit
         submitChangesButton: "button ::-p-text(Submit Changes)",
         confirmSubmission: "button ::-p-text(Yes, I confirm)",
 
-        // ChatGPT Selectors (NEW)
+        // ChatGPT Selectors
         chatGPTPromptTextarea: '#prompt-textarea',
         chatGPTSubmitButton: '#composer-submit-button'
     },

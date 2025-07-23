@@ -6,6 +6,7 @@ import { config } from "../config.js";
  */
 export async function verySmallPause(duration = 300) { // Default to 50ms, can be adjusted in config if needed
     await new Promise((resolve) => setTimeout(resolve, duration));
+    await new Promise((resolve) => setTimeout(resolve, duration || config.timeouts.debugSleep));
 }
 
 /**
@@ -22,7 +23,7 @@ export async function waitForSelectorAndClick(page, selector, description = "ele
         await page.locator(selector).click();
         console.log(`✅ Clicked ${description} (selector: ${selector})`);
     } catch (error) {
-        console.error(`❌ Error clicking ${description} with selector ${selector}:`, error.message);
+        console.error(`❌ Error clicking ${description} with selector ${selector}:`, error.message, { selector, description });
         throw error;
     }
 }
@@ -42,7 +43,7 @@ export async function waitForSelectorAndFill(page, selector, value, description 
         await page.locator(selector).fill(value);
         console.log(`✅ Filled ${description} (selector: ${selector}) with value: "${value}"`);
     } catch (error) {
-        console.error(`❌ Error filling ${description} with selector ${selector}:`, error.message);
+        console.error(`❌ Error filling ${description} with selector ${selector}:`, error.message, { selector, value, description });
         throw error;
     }
 }
@@ -58,9 +59,9 @@ export async function waitForSelectorAndFill(page, selector, value, description 
 export async function waitForSelectorToBeHidden(page, selector, description = "element") {
     try {
         await page.waitForSelector(selector, { hidden: true, timeout: config.timeouts.longAction });
-        console.log(`✅ ${description} disappeared as expected (selector: ${selector})`);
+        console.log(`✅ ${description} (selector: ${selector}) is now hidden.`);
     } catch (error) {
-        console.error(`❌ Error waiting for ${description} to disappear with selector ${selector}:`, error.message);
+        console.error(`❌ Error waiting for ${description} to be hidden (selector: ${selector}):`, error.message, { selector, description });
         throw error;
     }
 }

@@ -6,46 +6,47 @@ import { executablePath } from "puppeteer";
 puppeteer.use(StealthPlugin());
 
 (async () => {
+
     // Launch the browser
     const browser = await puppeteer.launch({
-        headless: false, // Must be false to interact with the login page
-        userDataDir: "./user-data", // Path to store session data (cookies, local storage, etc.)
-        executablePath: executablePath(), // Uses the Puppeteer-managed browser executable
-        args: ['--start-maximized'] // Optional: Starts the browser maximized
+        headless: false,
+        userDataDir: "./user-data",
+        executablePath: executablePath(),
+        args: ['--start-maximized']
     });
 
-    // Open a new page
     const page = await browser.newPage();
 
     try {
         console.log("Navigating to Zomato partners login page...");
-        // Navigate to the specified URL
         await page.goto(
             "https://www.zomato.com/partners/onlineordering/menu/editor?resId=20765231",
-            { waitUntil: "networkidle2", timeout: 60000 } // Wait until network activity has calmed, timeout after 60s
+            { waitUntil: "networkidle2", timeout: 60000 }
         );
         console.log("Navigation complete.");
         console.log("----------------------------------------------------------------------------------");
         console.log("IMPORTANT: Please log in to your Zomato Partner account in the browser window.");
-        console.log("Once you have successfully logged in, your session will be saved.");
-        console.log("You can then manually close the browser window or stop this script (Ctrl+C).");
-        console.log("The browser will remain open until this script is stopped.");
+        console.log("Once you have successfully logged in, press ENTER in this terminal to close the browser.");
         console.log("----------------------------------------------------------------------------------");
 
-        // Keep the script running (and browser open) indefinitely until manually stopped
-        // This allows the user to perform manual login.
-        await new Promise(resolve => {});
+        // Wait for user to press ENTER
+        process.stdin.resume();
+        process.stdin.setEncoding('utf8');
+        process.stdin.on('data', async () => {
+            console.log("Closing the browser...");
+            if (browser?.process() !== null) {
+                await browser.close();
+            }
+            console.log("Browser closed.");
+            process.exit(0);
+        });
 
     } catch (error) {
         console.error("An error occurred during navigation or while waiting for login:");
         console.error(error);
-    } finally {
-        console.log("Closing the browser...");
-        // Ensure the browser is closed when the script ends or if an error occurs
-        // (though if manually stopped, this might not always execute as expected depending on the signal)
-        if (browser && browser.isConnected()) {
+        if (browser?.process() !== null) {
             await browser.close();
         }
-        console.log("Browser closed.");
+        process.exit(1);
     }
 })();

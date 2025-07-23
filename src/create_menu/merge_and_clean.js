@@ -7,7 +7,7 @@ const EXTRACTED_INFO_DIR = path.join(projectRoot, 'extracted_info');
 const OUTPUT_PATH = path.join(projectRoot, 'final_json_output/merged_menu.json');
 
 function normalize(str) {
-    return str ? str.trim().toLowerCase() : '';
+    return str ? str.normalize('NFKC').replace(/[\s\u200B]+/g, ' ').trim().toLowerCase() : '';
 }
 
 function mergeDishes(existing, incoming) {
@@ -56,7 +56,13 @@ function mergeCategories(existing, incoming) {
 }
 
 async function optimizeJson() {
-    const files = await fs.readdir(EXTRACTED_INFO_DIR);
+    let files;
+    try {
+        files = await fs.readdir(EXTRACTED_INFO_DIR);
+    } catch (err) {
+        console.error('Failed to read extracted info directory:', err);
+        return;
+    }
     const txtFiles = files.filter(f => f.endsWith('.txt'));
     let mergedMenu = [];
     let validFiles = 0;

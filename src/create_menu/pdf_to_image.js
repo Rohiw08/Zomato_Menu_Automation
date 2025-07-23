@@ -2,7 +2,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { convert } from 'pdf-poppler';
 import fs from 'fs/promises'; // Use fs/promises for async file operations
-import fsSync from 'fs';      // For existsSync, which is synchronous
+// Removed fsSync, use only async operations
 
 // Determine the base directory for 'poppler-24.08.0' relative to this script
 const __filename = fileURLToPath(import.meta.url);
@@ -10,7 +10,8 @@ const currentDir = path.dirname(__filename);
 const frontEndAutomationDir = path.resolve(currentDir, '..', '..'); // Assuming this structure
 
 // Poppler binary path is usually relative to your project's root or node_modules
-const POPPLER_BIN_PATH = path.join(frontEndAutomationDir, 'poppler-24.08.0', 'Library', 'bin');
+import { PATHS } from '../paths.js';
+const POPPLER_BIN_PATH = PATHS.popplerBin;
 
 /**
  * Clears all files from a given directory.
