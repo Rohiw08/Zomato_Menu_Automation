@@ -1,0 +1,2484 @@
+[
+  {
+    "category": "STARTER",
+    "subCategories": [
+      {
+        "subcategory": "Veg Starters",
+        "dishes": [
+          {
+            "name": "TIEMPASS",
+            "description": "A crispy and savory Indian snack.",
+            "category": "Veg",
+            "price": "40"
+          },
+          {
+            "name": "MASALA PAPAD",
+            "description": "Roasted or fried papad topped with spices and vegetables.",
+            "category": "Veg",
+            "price": "100"
+          }
+        ]
+      },
+      {
+        "subcategory": "Non-Veg Starters",
+        "dishes": [
+          {
+            "name": "CHICKEN FRY",
+            "description": "Crispy and flavorful pieces of chicken, deep-fried.",
+            "category": "Non-Veg",
+            "price": "300"
+          },
+          {
+            "name": "CHICKEN KHIMA FRY",
+            "description": "Minced chicken cooked with spices and fried to perfection.",
+            "category": "Non-Veg",
+            "price": "320"
+          },
+          {
+            "name": "MUTTON FRY",
+            "description": "Tender pieces of mutton cooked with spices and fried.",
+            "category": "Non-Veg",
+            "price": "400"
+          },
+          {
+            "name": "MUTTON KHIMA FRY",
+            "description": "Minced mutton cooked with aromatic spices and then fried.",
+            "category": "Non-Veg",
+            "price": "420"
+          },
+          {
+            "name": "ANDA KHIMA FRY",
+            "description": "Minced boiled eggs cooked with spices and lightly fried.",
+            "category": "Non-Veg",
+            "price": "240"
+          }
+        ]
+      },
+      {
+        "subcategory": "Egg Starters",
+        "dishes": [
+          {
+            "name": "OMLETTE",
+            "description": "A classic dish made with beaten eggs, cooked in a pan.",
+            "category": "Egg",
+            "price": "100"
+          },
+          {
+            "name": "BHURJI",
+            "description": "Scrambled eggs cooked with onions, tomatoes, and spices.",
+            "category": "Egg",
+            "price": "100"
+          },
+          {
+            "name": "EGG BOIL PLATE",
+            "description": "A plate of perfectly boiled eggs, a simple and healthy option.",
+            "category": "Egg",
+            "price": "80"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "TANDOORI",
+    "subCategories": [
+      {
+        "subcategory": "Non-Veg Tandoori",
+        "dishes": [
+          {
+            "name": "CHICKEN TANDOORI",
+            "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "700",
+              "420"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "KABAB",
+    "subCategories": [
+      {
+        "subcategory": "Veg Kabab",
+        "dishes": [
+          {
+            "name": "PANEER TIKKA KABAB",
+            "description": "Cubes of paneer marinated in spices and grilled in a tandoor.",
+            "category": "Veg",
+            "price": "380"
+          },
+          {
+            "name": "PANEER BANJARA KABAB",
+            "description": "Paneer kabab with a rustic, flavorful marinade.",
+            "category": "Veg",
+            "price": "400"
+          },
+          {
+            "name": "PANEER ANGARA KABAB",
+            "description": "Spicy paneer kabab grilled to perfection.",
+            "category": "Veg",
+            "price": "400"
+          },
+          {
+            "name": "PANEER RESHMI KABAB",
+            "description": "Soft and creamy paneer kabab with a delicate flavor.",
+            "category": "Veg",
+            "price": "400"
+          },
+          {
+            "name": "PANEER MALAI KABAB",
+            "description": "Rich and creamy paneer kabab marinated in a mild sauce.",
+            "category": "Veg",
+            "price": "400"
+          },
+          {
+            "name": "PANEER LASUNI KABAB",
+            "description": "Paneer kabab infused with the flavor of garlic.",
+            "category": "Veg",
+            "price": "400"
+          },
+          {
+            "name": "MUSHROOM TIKKA KABAB",
+            "description": "Mushrooms marinated in spices and grilled in a tandoor.",
+            "category": "Veg",
+            "price": "380"
+          }
+        ]
+      },
+      {
+        "subcategory": "Non-Veg Kabab",
+        "dishes": [
+          {
+            "name": "CHICKEN BANJARA KABAB",
+            "description": "Chicken kabab with a unique blend of rustic spices.",
+            "category": "Non-Veg",
+            "price": "400"
+          },
+          {
+            "name": "CHICKEN MALAI KABAB",
+            "description": "Tender chicken pieces marinated in a creamy and mild sauce.",
+            "category": "Non-Veg",
+            "price": "400"
+          },
+          {
+            "name": "CHICKEN LASUNI KABAB",
+            "description": "Chicken kabab infused with the distinct flavor of garlic.",
+            "category": "Non-Veg",
+            "price": "400"
+          },
+          {
+            "name": "CHI.KASTURI KABAB",
+            "description": "Chicken kabab flavored with dried fenugreek leaves.",
+            "category": "Non-Veg",
+            "price": "380"
+          },
+          {
+            "name": "CHI.CHEESE GARLIC KABAB",
+            "description": "Chicken kabab with a cheesy and garlicky marinade.",
+            "category": "Non-Veg",
+            "price": "400"
+          },
+          {
+            "name": "CHICKEN TIKKA KABAB",
+            "description": "Boneless chicken pieces marinated in spices and grilled.",
+            "category": "Non-Veg",
+            "price": "380"
+          },
+          {
+            "name": "CHICKEN SHIKHA KABAB",
+            "description": "Skewered and grilled chicken kabab with a special blend of spices.",
+            "category": "Non-Veg",
+            "price": "400"
+          },
+          {
+            "name": "CHI.PAHADI KABAB",
+            "description": "Chicken kabab marinated with herbs and spices from the hills.",
+            "category": "Non-Veg",
+            "price": "400"
+          },
+          {
+            "name": "CHICKEN ANGARA KABAB",
+            "description": "Spicy and smoky chicken kabab grilled over charcoal.",
+            "category": "Non-Veg",
+            "price": "400"
+          },
+          {
+            "name": "CHICKEN RESHMI KABAB",
+            "description": "Silky and tender chicken kabab with a mild and creamy marinade.",
+            "category": "Non-Veg",
+            "price": "400"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "MAIN COURSE",
+    "subCategories": [
+      {
+        "subcategory": "Veg Ka Bhandar",
+        "dishes": [
+          {
+            "name": "GREVY PLATE",
+            "description": "A flavorful gravy dish.",
+            "category": "Veg",
+            "price": "220"
+          },
+          {
+            "name": "BHENDI MASALA",
+            "description": "Okra cooked in a spicy masala.",
+            "category": "Veg",
+            "price": "300"
+          },
+          {
+            "name": "BAIGAN MASALA",
+            "description": "Eggplant cooked in a rich masala.",
+            "category": "Veg",
+            "price": "300"
+          },
+          {
+            "name": "ALOO MUTTER",
+            "description": "Potatoes and peas in a flavorful gravy.",
+            "category": "Veg",
+            "price": "300"
+          },
+          {
+            "name": "SHEV BHAJI",
+            "description": "A spicy curry with sev (crispy noodles).",
+            "category": "Veg",
+            "price": "280"
+          },
+          {
+            "name": "SEV BHAJI KOLHAPURI",
+            "description": "A spicier version of Shev Bhaji from Kolhapur.",
+            "category": "Veg",
+            "price": "320"
+          },
+          {
+            "name": "CHANA DRY",
+            "description": "Dry preparation of chickpeas.",
+            "category": "Veg",
+            "price": "240"
+          },
+          {
+            "name": "CHANA FRY",
+            "description": "Chickpeas fried with spices.",
+            "category": "Veg",
+            "price": "260"
+          },
+          {
+            "name": "CHANA MASALA",
+            "description": "Chickpeas cooked in a flavorful masala.",
+            "category": "Veg",
+            "price": "280"
+          },
+          {
+            "name": "CHANA KOLHAPURI",
+            "description": "Spicy chickpeas preparation from Kolhapur.",
+            "category": "Veg",
+            "price": "320"
+          },
+          {
+            "name": "DAL FRY",
+            "description": "Lentils tempered with spices.",
+            "category": "Veg",
+            "price": "240"
+          },
+          {
+            "name": "BUTTER FRY DAL",
+            "description": "Lentils fried with butter and spices.",
+            "category": "Veg",
+            "price": "280"
+          },
+          {
+            "name": "DAL TADKA",
+            "description": "Lentils tempered with spices and herbs.",
+            "category": "Veg",
+            "price": "300"
+          },
+          {
+            "name": "DAL TADKA KOLHAPURI",
+            "description": "Spicy lentil dish from Kolhapur.",
+            "category": "Veg",
+            "price": "340"
+          },
+          {
+            "name": "DAL PALAK",
+            "description": "Lentils cooked with spinach.",
+            "category": "Veg",
+            "price": "300"
+          },
+          {
+            "name": "PALAK PANEER",
+            "description": "Spinach and Indian cheese.",
+            "category": "Veg",
+            "price": "340"
+          },
+          {
+            "name": "MUTTER PALAK",
+            "description": "Peas and spinach.",
+            "category": "Veg",
+            "price": "320"
+          },
+          {
+            "name": "ALOO PALAK",
+            "description": "Potatoes and spinach.",
+            "category": "Veg",
+            "price": "320"
+          },
+          {
+            "name": "AKKHA MASOOR",
+            "description": "Whole masoor lentils cooked with spices.",
+            "category": "Veg",
+            "price": "340"
+          },
+          {
+            "name": "PLAIN PALAK",
+            "description": "Simple spinach dish.",
+            "category": "Veg",
+            "price": "300"
+          },
+          {
+            "name": "VEG TAVA",
+            "description": "Mixed vegetables cooked on a griddle.",
+            "category": "Veg",
+            "price": "440"
+          },
+          {
+            "name": "VEG HYDERABADI",
+            "description": "Vegetable dish in Hyderabadi style.",
+            "category": "Veg",
+            "price": "360"
+          },
+          {
+            "name": "MIX VEG",
+            "description": "Mixed vegetables in a flavorful sauce.",
+            "category": "Veg",
+            "price": "340"
+          },
+          {
+            "name": "VEG KOLHAPURI",
+            "description": "Spicy mixed vegetable dish from Kolhapur.",
+            "category": "Veg",
+            "price": "360"
+          },
+          {
+            "name": "VEG MARATHA",
+            "description": "Vegetable dish in Maratha style.",
+            "category": "Veg",
+            "price": "360"
+          },
+          {
+            "name": "VEG PATIYALA",
+            "description": "Rich and flavorful vegetable dish.",
+            "category": "Veg",
+            "price": "460"
+          },
+          {
+            "name": "VEG BHONNA",
+            "description": "Vegetables cooked in a thick gravy.",
+            "category": "Veg",
+            "price": "340"
+          },
+          {
+            "name": "VEG KASTURI",
+            "description": "Vegetable dish flavored with fenugreek.",
+            "category": "Veg",
+            "price": "420"
+          },
+          {
+            "name": "GREEN PEAS FRY",
+            "description": "Green peas fried with spices.",
+            "category": "Veg",
+            "price": "260"
+          },
+          {
+            "name": "GREEN PEAS MASALA",
+            "description": "Green peas in a flavorful masala.",
+            "category": "Veg",
+            "price": "280"
+          },
+          {
+            "name": "GREEN PEAS KOLHAPURI",
+            "description": "Spicy green peas dish from Kolhapur.",
+            "category": "Veg",
+            "price": "320"
+          },
+          {
+            "name": "PANEER MASALA",
+            "description": "Indian cheese in a rich masala.",
+            "category": "Veg",
+            "price": "340"
+          },
+          {
+            "name": "PANEER BUTTER MASALA",
+            "description": "Indian cheese in a creamy tomato-based sauce.",
+            "category": "Veg",
+            "price": "360"
+          },
+          {
+            "name": "MUTTER PANEER",
+            "description": "Indian cheese and peas in a gravy.",
+            "category": "Veg",
+            "price": "340"
+          },
+          {
+            "name": "PANEER TIKKA",
+            "description": "Indian cheese marinated and grilled.",
+            "category": "Veg",
+            "price": "380"
+          },
+          {
+            "name": "PANEER KOLHAPURI",
+            "description": "Spicy Indian cheese dish from Kolhapur.",
+            "category": "Veg",
+            "price": "380"
+          },
+          {
+            "name": "PANEER PASANDA",
+            "description": "Rich and creamy Indian cheese dish.",
+            "category": "Veg",
+            "price": "460"
+          },
+          {
+            "name": "PANEER KOFTA",
+            "description": "Indian cheese balls in a flavorful gravy.",
+            "category": "Veg",
+            "price": "460"
+          },
+          {
+            "name": "PANEER BHURJI",
+            "description": "Scrambled Indian cheese with spices.",
+            "category": "Veg",
+            "price": "340"
+          },
+          {
+            "name": "PANEER KURMA",
+            "description": "Indian cheese in a mild and creamy gravy.",
+            "category": "Veg",
+            "price": "420"
+          },
+          {
+            "name": "PANEER KASTURI",
+            "description": "Indian cheese dish flavored with fenugreek.",
+            "category": "Veg",
+            "price": "420"
+          },
+          {
+            "name": "PANEER LASOONI",
+            "description": "Indian cheese with a garlic flavor.",
+            "category": "Veg",
+            "price": "420"
+          },
+          {
+            "name": "PANEER MAHARAJA",
+            "description": "A royal and rich Indian cheese dish.",
+            "category": "Veg",
+            "price": "480"
+          },
+          {
+            "name": "PANEER TAWA",
+            "description": "Indian cheese cooked on a griddle.",
+            "category": "Veg",
+            "price": "440"
+          },
+          {
+            "name": "PANEER TOOFANI",
+            "description": "A unique and flavorful Indian cheese dish.",
+            "category": "Veg",
+            "price": "440"
+          },
+          {
+            "name": "KAJU KARI",
+            "description": "Cashews in a rich gravy.",
+            "category": "Veg",
+            "price": "400"
+          },
+          {
+            "name": "KAJU MASALA",
+            "description": "Cashews cooked in a flavorful masala.",
+            "category": "Veg",
+            "price": "420"
+          },
+          {
+            "name": "KAJU KOLHAPURI",
+            "description": "Spicy cashew dish from Kolhapur.",
+            "category": "Veg",
+            "price": "440"
+          },
+          {
+            "name": "KAJU MUTTER",
+            "description": "Cashews and peas in a gravy.",
+            "category": "Veg",
+            "price": "420"
+          },
+          {
+            "name": "KAJU PANEER MASALA",
+            "description": "Cashews and Indian cheese in a masala.",
+            "category": "Veg",
+            "price": "440"
+          },
+          {
+            "name": "KAJU BUTTER MASALA",
+            "description": "Cashews in a creamy tomato-based sauce.",
+            "category": "Veg",
+            "price": "420"
+          },
+          {
+            "name": "MUSHROOM MASALA",
+            "description": "Mushrooms in a flavorful masala.",
+            "category": "Veg",
+            "price": "380"
+          },
+          {
+            "name": "MUSHROOM KOLHAPURI",
+            "description": "Spicy mushroom dish from Kolhapur.",
+            "category": "Veg",
+            "price": "420"
+          },
+          {
+            "name": "MUSHROOM PALAK",
+            "description": "Mushrooms and spinach in a gravy.",
+            "category": "Veg",
+            "price": "380"
+          },
+          {
+            "name": "MUSHROOM PANEER",
+            "description": "Mushrooms and Indian cheese in a gravy.",
+            "category": "Veg",
+            "price": "420"
+          },
+          {
+            "name": "MUSHROOM MUTTER",
+            "description": "Mushrooms and peas in a gravy.",
+            "category": "Veg",
+            "price": "400"
+          },
+          {
+            "name": "MUSHROOM HEDRABADI",
+            "description": "Mushroom dish in Hyderabadi style.",
+            "category": "Veg",
+            "price": "380"
+          },
+          {
+            "name": "SOYABEAN MASALA",
+            "description": "Soyabean in a flavorful masala.",
+            "category": "Veg",
+            "price": "340"
+          },
+          {
+            "name": "SOYABEAN KOLHAPURI",
+            "description": "Spicy soyabean dish from Kolhapur.",
+            "category": "Veg",
+            "price": "360"
+          }
+        ]
+      },
+      {
+        "subcategory": "Veg Handi",
+        "dishes": [
+          {
+            "name": "MUSHROOM HANDI",
+            "description": "Mushrooms cooked in a traditional handi (earthen pot).",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "820",
+              "420"
+            ]
+          },
+          {
+            "name": "MUSHROOM HANDI KOLHAPURI",
+            "description": "Spicy mushroom handi in Kolhapuri style.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "840",
+              "440"
+            ]
+          },
+          {
+            "name": "PANEER HANDI",
+            "description": "Indian cheese cooked in a traditional handi.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "780",
+              "400"
+            ]
+          },
+          {
+            "name": "PANEER HANDI KOLHAPURI",
+            "description": "Spicy paneer handi in Kolhapuri style.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "820",
+              "420"
+            ]
+          },
+          {
+            "name": "PANEER KADAI",
+            "description": "Indian cheese cooked in a kadai (wok).",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "620",
+              "420"
+            ]
+          },
+          {
+            "name": "VEG HANDI",
+            "description": "Mixed vegetables cooked in a traditional handi.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "780",
+              "400"
+            ]
+          },
+          {
+            "name": "VEG HANDI KOLHAPURI",
+            "description": "Spicy mixed vegetable handi in Kolhapuri style.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "820",
+              "420"
+            ]
+          },
+          {
+            "name": "VEG KADAI",
+            "description": "Mixed vegetables cooked in a kadai.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "520",
+              "380"
+            ]
+          },
+          {
+            "name": "KAJU HANDI",
+            "description": "Cashews cooked in a traditional handi.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "1020",
+              "620"
+            ]
+          },
+          {
+            "name": "KAJU PANEER HANDI",
+            "description": "Cashews and Indian cheese cooked in a traditional handi.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "980",
+              "600"
+            ]
+          },
+          {
+            "name": "KAJU MUTTER HANDI",
+            "description": "Cashews and peas cooked in a traditional handi.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "980",
+              "600"
+            ]
+          },
+          {
+            "name": "VEG MARATHA HANDI",
+            "description": "Mixed vegetables cooked in Maratha style in a traditional handi.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "880",
+              "580"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "Egg House",
+        "dishes": [
+          {
+            "name": "EGG MASALA",
+            "description": "Eggs cooked in a spicy and flavorful masala.",
+            "category": "Egg",
+            "price": "300"
+          },
+          {
+            "name": "EGG CURRY",
+            "description": "Eggs simmered in a delicious curry sauce.",
+            "category": "Egg",
+            "price": "260"
+          },
+          {
+            "name": "EGG CURRY KOLHAPURI",
+            "description": "Spicy egg curry prepared in Kolhapuri style.",
+            "category": "Egg",
+            "price": "300"
+          },
+          {
+            "name": "EGG MASALA KOLHAPURI",
+            "description": "Spicy egg masala prepared in Kolhapuri style.",
+            "category": "Egg",
+            "price": "320"
+          }
+        ]
+      },
+      {
+        "subcategory": "Chicken Ka Darbar",
+        "dishes": [
+          {
+            "name": "CHICKEN CURRY",
+            "description": "Chicken cooked in a flavorful curry.",
+            "category": "Non-Veg",
+            "price": "340"
+          },
+          {
+            "name": "CHICKEN MASALA",
+            "description": "Chicken cooked in a rich and aromatic masala.",
+            "category": "Non-Veg",
+            "price": "360"
+          },
+          {
+            "name": "CHICKEN KOLHAPURI",
+            "description": "Spicy chicken dish prepared in Kolhapuri style.",
+            "category": "Non-Veg",
+            "price": "380"
+          },
+          {
+            "name": "CHICKEN KHIMA MASALA",
+            "description": "Minced chicken cooked in a flavorful masala.",
+            "category": "Non-Veg",
+            "price": "380"
+          },
+          {
+            "name": "CHICKEN HYDERABADI",
+            "description": "Chicken dish prepared in Hyderabadi style.",
+            "category": "Non-Veg",
+            "price": "380"
+          },
+          {
+            "name": "CHICKEN MOGLAI",
+            "description": "Rich and creamy chicken dish in Mughlai style.",
+            "category": "Non-Veg",
+            "price": "380"
+          },
+          {
+            "name": "CHICKEN MARATHA",
+            "description": "Chicken dish prepared in Maratha style.",
+            "category": "Non-Veg",
+            "price": "380"
+          },
+          {
+            "name": "CHICKEN TIKKA MASALA",
+            "description": "Grilled chicken tikka pieces in a creamy and spiced gravy.",
+            "category": "Non-Veg",
+            "price": "380"
+          },
+          {
+            "name": "BUTTER CHICKEN",
+            "description": "Chicken cooked in a creamy and buttery tomato-based sauce.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "1000",
+              "600"
+            ]
+          },
+          {
+            "name": "CHICKEN KADAI",
+            "description": "Chicken cooked in a kadai (wok) with spices and vegetables.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "920",
+              "500"
+            ]
+          },
+          {
+            "name": "CHICKEN HANDI",
+            "description": "Chicken cooked in a traditional handi (earthen pot).",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "980",
+              "560"
+            ]
+          },
+          {
+            "name": "CHICKEN MARATHA HANDI",
+            "description": "Chicken cooked in Maratha style in a traditional handi.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "1000",
+              "600"
+            ]
+          },
+          {
+            "name": "CHICKEN HYDRABADI HANDI",
+            "description": "Chicken cooked in Hyderabadi style in a traditional handi.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "1000",
+              "600"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "Mutton Ka Darbar",
+        "dishes": [
+          {
+            "name": "MUTTON MASALA",
+            "description": "Mutton cooked in a rich and aromatic masala.",
+            "category": "Non-Veg",
+            "price": "480"
+          },
+          {
+            "name": "MUTTON KHIMA MASALA",
+            "description": "Minced mutton cooked in a flavorful masala.",
+            "category": "Non-Veg",
+            "price": "520"
+          },
+          {
+            "name": "MUTTON MOGLAI",
+            "description": "Rich and creamy mutton dish in Mughlai style.",
+            "category": "Non-Veg",
+            "price": "520"
+          },
+          {
+            "name": "MUTTON CURRY",
+            "description": "Mutton cooked in a flavorful curry.",
+            "category": "Non-Veg",
+            "price": "460"
+          },
+          {
+            "name": "MUTTON KOLHAPURI",
+            "description": "Spicy mutton dish prepared in Kolhapuri style.",
+            "category": "Non-Veg",
+            "price": "520"
+          },
+          {
+            "name": "MUTTON MARATHA",
+            "description": "Mutton dish prepared in Maratha style.",
+            "category": "Non-Veg",
+            "price": "520"
+          },
+          {
+            "name": "MUTTON TIKKA",
+            "description": "Grilled pieces of mutton marinated in spices.",
+            "category": "Non-Veg",
+            "price": "520"
+          },
+          {
+            "name": "MUTTON HYDRABADI",
+            "description": "Mutton dish prepared in Hyderabadi style.",
+            "category": "Non-Veg",
+            "price": "520"
+          },
+          {
+            "name": "MUTTON BONELESS MASALA",
+            "description": "Boneless mutton cooked in a rich masala.",
+            "category": "Non-Veg",
+            "price": "520"
+          },
+          {
+            "name": "MUTTON MASALA KOLHAPURI",
+            "description": "Spicy mutton masala prepared in Kolhapuri style.",
+            "category": "Non-Veg",
+            "price": "520"
+          },
+          {
+            "name": "MUTTON HANDI",
+            "description": "Mutton cooked in a traditional handi (earthen pot).",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "1120",
+              "720"
+            ]
+          },
+          {
+            "name": "MUTTON HYDERA HANDI",
+            "description": "Mutton cooked in Hyderabadi style in a traditional handi.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "1140",
+              "740"
+            ]
+          },
+          {
+            "name": "MUTTON MARATHA HANDI",
+            "description": "Mutton cooked in Maratha style in a traditional handi.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "1160",
+              "760"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "ROTI & NAAN",
+    "subCategories": [
+      {
+        "subcategory": "Roti & Naan",
+        "dishes": [
+          {
+            "name": "CHAPATI",
+            "description": "A simple and unleavened flatbread.",
+            "category": "Veg",
+            "price": "40"
+          },
+          {
+            "name": "ROTI",
+            "description": "A basic whole wheat flatbread.",
+            "category": "Veg",
+            "price": "40"
+          },
+          {
+            "name": "WHEAT ROTI",
+            "description": "A flatbread made from wheat flour.",
+            "category": "Veg",
+            "price": "40"
+          },
+          {
+            "name": "BUTTER ROTI",
+            "description": "Wheat flatbread topped with butter.",
+            "category": "Veg",
+            "price": "60"
+          },
+          {
+            "name": "PANEER PARATHA",
+            "description": "Flatbread stuffed with Indian cheese.",
+            "category": "Veg",
+            "price": "200"
+          },
+          {
+            "name": "LACCHA PARATHA",
+            "description": "Multi-layered crispy flatbread.",
+            "category": "Veg",
+            "price": "100"
+          },
+          {
+            "name": "KULCHA",
+            "description": "A soft and leavened flatbread.",
+            "category": "Veg",
+            "price": "90"
+          },
+          {
+            "name": "CHICKEN KHIMA PARATHA",
+            "description": "Flatbread stuffed with minced chicken.",
+            "category": "Non-Veg",
+            "price": "220"
+          },
+          {
+            "name": "BAJARI BHAKAR",
+            "description": "Flatbread made from millet flour.",
+            "category": "Veg",
+            "price": "50"
+          },
+          {
+            "name": "JOWARI BHAKRI",
+            "description": "Flatbread made from sorghum flour.",
+            "category": "Veg",
+            "price": "60"
+          },
+          {
+            "name": "PLAIN NAAN",
+            "description": "A soft and leavened flatbread cooked in a tandoor.",
+            "category": "Veg",
+            "price": "80"
+          },
+          {
+            "name": "BUTTER NAAN",
+            "description": "Naan topped with butter.",
+            "category": "Veg",
+            "price": "100"
+          },
+          {
+            "name": "GRALIC NAAN",
+            "description": "Naan flavored with garlic.",
+            "category": "Veg",
+            "price": "100"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "BIRYANI",
+    "subCategories": [
+      {
+        "subcategory": "Veg Biryani",
+        "dishes": [
+          {
+            "name": "PLAIN BIRYANI RICE",
+            "description": "Simple and flavorful biryani rice preparation.",
+            "category": "Veg",
+            "price": "220"
+          },
+          {
+            "name": "VEG BIRYANI",
+            "description": "Aromatic biryani with mixed vegetables.",
+            "category": "Veg",
+            "price": "300"
+          },
+          {
+            "name": "VEG KASHMIRI BIRYANI",
+            "description": "Vegetable biryani with a touch of Kashmiri spices and dry fruits.",
+            "category": "Veg",
+            "price": "380"
+          },
+          {
+            "name": "PANEER BIRYANI",
+            "description": "Biryani with cubes of Indian cheese.",
+            "category": "Veg",
+            "price": "340"
+          },
+          {
+            "name": "GREEN PEAS BIRYANI",
+            "description": "Biryani with fresh green peas.",
+            "category": "Veg",
+            "price": "300"
+          },
+          {
+            "name": "KAJU BIRYANI",
+            "description": "Rich biryani with cashews.",
+            "category": "Veg",
+            "price": "380"
+          },
+          {
+            "name": "KAJU PANEER BIRYANI",
+            "description": "Biryani with cashews and Indian cheese.",
+            "category": "Veg",
+            "price": "380"
+          },
+          {
+            "name": "MASHROOM BIRYANI",
+            "description": "Flavorful biryani with mushrooms.",
+            "category": "Veg",
+            "price": "380"
+          },
+          {
+            "name": "MASH. PANEER BIRYANI",
+            "description": "Biryani with mushrooms and Indian cheese.",
+            "category": "Veg",
+            "price": "380"
+          }
+        ]
+      },
+      {
+        "subcategory": "Egg Biryani",
+        "dishes": [
+          {
+            "name": "EGG BIRYANI",
+            "description": "Aromatic biryani with boiled eggs.",
+            "category": "Egg",
+            "price": "320"
+          },
+          {
+            "name": "EGG DUM BIRYANI",
+            "description": "Biryani with eggs cooked using the dum method.",
+            "category": "Egg",
+            "price": "360"
+          }
+        ]
+      },
+      {
+        "subcategory": "Chicken Biryani",
+        "dishes": [
+          {
+            "name": "CHICKEN BIRYANI",
+            "description": "Classic biryani with tender chicken pieces.",
+            "category": "Non-Veg",
+            "price": "380"
+          },
+          {
+            "name": "CHICKEN DUM BIRYANI",
+            "description": "Chicken biryani cooked using the dum method.",
+            "category": "Non-Veg",
+            "price": "420"
+          },
+          {
+            "name": "CHICKEN JOINT BIRYANI",
+            "description": "Biryani with chicken joints.",
+            "category": "Non-Veg",
+            "price": "580"
+          },
+          {
+            "name": "CHICKEN MARATHA BIRYANI",
+            "description": "Chicken biryani prepared in Maratha style.",
+            "category": "Non-Veg",
+            "price": "560"
+          }
+        ]
+      },
+      {
+        "subcategory": "Mutton Biryani",
+        "dishes": [
+          {
+            "name": "MUTTON BIRYANI",
+            "description": "Fragrant biryani with tender mutton pieces.",
+            "category": "Non-Veg",
+            "price": "480"
+          },
+          {
+            "name": "MUTTON DUM BIRYANI",
+            "description": "Mutton biryani cooked using the dum method.",
+            "category": "Non-Veg",
+            "price": "520"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "RICE",
+    "subCategories": [
+      {
+        "subcategory": "Veg Rice",
+        "dishes": [
+          {
+            "name": "STEAM RICE",
+            "description": "Plain steamed rice.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "200",
+              "160"
+            ]
+          },
+          {
+            "name": "PLAIN RICE",
+            "description": "Simple cooked rice.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "180",
+              "140"
+            ]
+          },
+          {
+            "name": "VEG PULAV",
+            "description": "Rice cooked with mixed vegetables and mild spices.",
+            "category": "Veg",
+            "price": "240"
+          },
+          {
+            "name": "VEG KASHMIRI PULAV",
+            "description": "Vegetable pulav with Kashmiri spices and dry fruits.",
+            "category": "Veg",
+            "price": "360"
+          },
+          {
+            "name": "JEERA RICE",
+            "description": "Rice tempered with cumin seeds.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "220",
+              "180"
+            ]
+          },
+          {
+            "name": "GREEN PEAS PULAV",
+            "description": "Rice cooked with green peas and mild spices.",
+            "category": "Veg",
+            "price": "260"
+          },
+          {
+            "name": "KAJU PULAV",
+            "description": "Rice cooked with cashews and mild spices.",
+            "category": "Veg",
+            "price": "360"
+          },
+          {
+            "name": "KAJU PANEER PULAV",
+            "description": "Rice cooked with cashews and Indian cheese.",
+            "category": "Veg",
+            "price": "360"
+          },
+          {
+            "name": "PANEER PULAV",
+            "description": "Rice cooked with Indian cheese and mild spices.",
+            "category": "Veg",
+            "price": "320"
+          },
+          {
+            "name": "CURD RICE",
+            "description": "Rice mixed with yogurt and tempered spices.",
+            "category": "Veg",
+            "price": "300"
+          },
+          {
+            "name": "DAL KHICHDI",
+            "description": "A simple and wholesome dish made with lentils and rice.",
+            "category": "Veg",
+            "price": "260"
+          },
+          {
+            "name": "DAL KHICHDI TADAKD",
+            "description": "Lentil and rice dish with a flavorful tempering.",
+            "category": "Veg",
+            "price": "300"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "VEG CHINESE",
+    "subCategories": [
+      {
+        "subcategory": "Veg Soup",
+        "dishes": [
+          {
+            "name": "VEG.MANCHOW SOUP",
+            "description": "A popular Indo-Chinese vegetable soup.",
+            "category": "Veg",
+            "price": "160"
+          },
+          {
+            "name": "VEG HOT & SOUR SOUP",
+            "description": "A spicy and tangy vegetable soup.",
+            "category": "Veg",
+            "price": "180"
+          },
+          {
+            "name": "MUSHROOM SOUP",
+            "description": "Creamy soup made with fresh mushrooms.",
+            "category": "Veg",
+            "price": "180"
+          }
+        ]
+      },
+      {
+        "subcategory": "Veg Starter",
+        "dishes": [
+          {
+            "name": "VEG CHINESE BHEL",
+            "description": "A crispy and tangy Indo-Chinese snack.",
+            "category": "Veg",
+            "price": "200"
+          },
+          {
+            "name": "VEG CHILLY",
+            "description": "Stir-fried vegetables in a spicy chili sauce.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "VEG MANCHURIAN",
+            "description": "Vegetable balls in a savory brown sauce.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "VEG 65",
+            "description": "Spicy and tangy marinated vegetables, deep-fried.",
+            "category": "Veg",
+            "price": "340"
+          },
+          {
+            "name": "VEG CRISPY",
+            "description": "Crispy fried mixed vegetables.",
+            "category": "Veg",
+            "price": "400"
+          },
+          {
+            "name": "VEG HOT GARLIC",
+            "description": "Vegetables stir-fried in a spicy garlic sauce.",
+            "category": "Veg",
+            "price": "340"
+          },
+          {
+            "name": "PANEER 65",
+            "description": "Spicy and tangy marinated paneer, deep-fried.",
+            "category": "Veg",
+            "price": "340"
+          },
+          {
+            "name": "PANEER CRISPY",
+            "description": "Crispy fried Indian cheese.",
+            "category": "Veg",
+            "price": "400"
+          },
+          {
+            "name": "PANEER CHILLY",
+            "description": "Stir-fried paneer in a spicy chili sauce.",
+            "category": "Veg",
+            "price": "340"
+          },
+          {
+            "name": "PANEER CHILLY GRAVY",
+            "description": "Paneer and vegetables in a spicy chili gravy.",
+            "category": "Veg",
+            "price": "360"
+          },
+          {
+            "name": "PANEER HOT GARLIC",
+            "description": "Paneer stir-fried in a spicy garlic sauce.",
+            "category": "Veg",
+            "price": "360"
+          },
+          {
+            "name": "PANEER MANCHURIAN DRY",
+            "description": "Dry version of paneer manchurian.",
+            "category": "Veg",
+            "price": "340"
+          },
+          {
+            "name": "MUSHROOM HOT GARLIC",
+            "description": "Mushrooms stir-fried in a spicy garlic sauce.",
+            "category": "Veg",
+            "price": "360"
+          },
+          {
+            "name": "MUSHROOM MANCHURIAN",
+            "description": "Mushroom balls in a savory brown sauce.",
+            "category": "Veg",
+            "price": "340"
+          }
+        ]
+      },
+      {
+        "subcategory": "Veg Rice",
+        "dishes": [
+          {
+            "name": "VEG FRIED RICE",
+            "description": "Stir-fried rice with mixed vegetables.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "280",
+              "180"
+            ]
+          },
+          {
+            "name": "VEG SCHEZWAN FRIED RICE",
+            "description": "Spicy stir-fried rice with Schezwan sauce and vegetables.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "280",
+              "180"
+            ]
+          },
+          {
+            "name": "VEG TRIPLE RICE",
+            "description": "A combination of fried rice, noodles, and a spicy gravy.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "VEG MANCHURIAN RICE",
+            "description": "Fried rice served with vegetable manchurian gravy.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "VEG COMBINATION RICE",
+            "description": "A mix of different flavored fried rice.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "180"
+            ]
+          },
+          {
+            "name": "VEG SHINGAPURI RICE",
+            "description": "Spicy Singapore-style fried rice with vegetables.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "180"
+            ]
+          },
+          {
+            "name": "VEG HONGKONG RICE",
+            "description": "Hongkong-style fried rice with vegetables.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "180"
+            ]
+          },
+          {
+            "name": "PANEER FRIED RICE",
+            "description": "Stir-fried rice with Indian cheese.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "200"
+            ]
+          },
+          {
+            "name": "PANEER SEZWAN RICE",
+            "description": "Spicy stir-fried rice with paneer and Schezwan sauce.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "200"
+            ]
+          },
+          {
+            "name": "PANEER SHINGAPURI RICE",
+            "description": "Spicy Singapore-style fried rice with paneer.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "PANEER HONGKONG RICE",
+            "description": "Hongkong-style fried rice with paneer.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "PANEER MACHURIAN RICE",
+            "description": "Fried rice served with paneer manchurian gravy.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "340",
+              "220"
+            ]
+          },
+          {
+            "name": "PANEER TRIPLE RICE",
+            "description": "A combination of fried rice, noodles, and spicy paneer gravy.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "340",
+              "220"
+            ]
+          },
+          {
+            "name": "MASHROOM FRIED RICE",
+            "description": "Stir-fried rice with mushrooms.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "200"
+            ]
+          },
+          {
+            "name": "MASHROOM SEZWAN RICE",
+            "description": "Spicy stir-fried rice with mushrooms and Schezwan sauce.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "200"
+            ]
+          },
+          {
+            "name": "MASHROOM SHINGAPURI RICE",
+            "description": "Spicy Singapore-style fried rice with mushrooms.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "MASHROOM HONGKONG RICE",
+            "description": "Hongkong-style fried rice with mushrooms.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "MASHROOM MANCHURIAN RICE",
+            "description": "Fried rice served with mushroom manchurian gravy.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "340",
+              "220"
+            ]
+          },
+          {
+            "name": "MASHROOM TRIPLE RICE",
+            "description": "A combination of fried rice, noodles, and spicy mushroom gravy.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "340",
+              "220"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "Veg Noodles",
+        "dishes": [
+          {
+            "name": "VEG HAKKA NOODLES",
+            "description": "Stir-fried noodles with mixed vegetables.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "280",
+              "180"
+            ]
+          },
+          {
+            "name": "VEG SCHEZWAN NOODLES",
+            "description": "Spicy stir-fried noodles with Schezwan sauce and vegetables.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "280",
+              "180"
+            ]
+          },
+          {
+            "name": "VEG TRIPLE NOODLES",
+            "description": "A combination of different stir-fried noodles.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "VEG MACHURIAN NOODLES",
+            "description": "Stir-fried noodles with vegetable manchurian balls.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "VEG SHINGAPURI NOODLES",
+            "description": "Spicy Singapore-style stir-fried noodles with vegetables.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "180"
+            ]
+          },
+          {
+            "name": "VEG HONGKONG NOODLES",
+            "description": "Hongkong-style stir-fried noodles with vegetables.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "180"
+            ]
+          },
+          {
+            "name": "PANEER FRIED NOODLES",
+            "description": "Stir-fried noodles with Indian cheese.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "200"
+            ]
+          },
+          {
+            "name": "PANEER SEZWAN NOODLES",
+            "description": "Spicy stir-fried noodles with paneer and Schezwan sauce.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "200"
+            ]
+          },
+          {
+            "name": "PANEER SHINGAPURI NOODLES",
+            "description": "Spicy Singapore-style stir-fried noodles with paneer.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "PANEER HONGKONG NOODLES",
+            "description": "Hongkong-style stir-fried noodles with paneer.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "PANEER MACHURIAN NOODLES",
+            "description": "Stir-fried noodles with paneer manchurian balls.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "340",
+              "220"
+            ]
+          },
+          {
+            "name": "PANEER TRIPLE NOODLES",
+            "description": "A combination of different stir-fried noodles with paneer.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "340",
+              "220"
+            ]
+          },
+          {
+            "name": "MASHROOM FRIED NOODLES",
+            "description": "Stir-fried noodles with mushrooms.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "200"
+            ]
+          },
+          {
+            "name": "MASHROOM SEZWAN NOODLES",
+            "description": "Spicy stir-fried noodles with mushrooms and Schezwan sauce.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "200"
+            ]
+          },
+          {
+            "name": "MASHROOM SHINGAPURI NOODLES",
+            "description": "Spicy Singapore-style stir-fried noodles with mushrooms.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "MASHROOM HONGKONG NOODLES",
+            "description": "Hongkong-style stir-fried noodles with mushrooms.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "MASHROOM MANCHURIAN NOODLES",
+            "description": "Stir-fried noodles with mushroom manchurian balls.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "340",
+              "220"
+            ]
+          },
+          {
+            "name": "MASHROOM TRIPLE NOODLES",
+            "description": "A combination of different stir-fried noodles with mushrooms.",
+            "category": "Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "340",
+              "220"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "NON-VEG CHINESE",
+    "subCategories": [
+      {
+        "subcategory": "Non-Veg Soup",
+        "dishes": [
+          {
+            "name": "CHICKEN MANCHOW SOUP",
+            "description": "A popular Indo-Chinese chicken soup.",
+            "category": "Non-Veg",
+            "price": "180"
+          },
+          {
+            "name": "CHICKEN CLEAR SOUP",
+            "description": "A light and flavorful chicken broth.",
+            "category": "Non-Veg",
+            "price": "200"
+          },
+          {
+            "name": "CHICKEN HOT & SOUR SOUP",
+            "description": "A spicy and tangy chicken soup.",
+            "category": "Non-Veg",
+            "price": "200"
+          }
+        ]
+      },
+      {
+        "subcategory": "Non-Veg Starter",
+        "dishes": [
+          {
+            "name": "CHICKEN CHENSE BHEL",
+            "description": "A crispy and tangy Indo-Chinese snack with chicken.",
+            "category": "Non-Veg",
+            "price": "240"
+          },
+          {
+            "name": "CHICKEN MANCHURIAN",
+            "description": "Chicken balls in a savory brown sauce.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "half",
+              "full"
+            ],
+            "prices": [
+              "340",
+              "220"
+            ]
+          },
+          {
+            "name": "CHICKEN MANCH. GRAVY",
+            "description": "Chicken manchurian in a rich gravy.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "half",
+              "full"
+            ],
+            "prices": [
+              "380",
+              "260"
+            ]
+          },
+          {
+            "name": "CHICKEN 65",
+            "description": "Spicy and tangy marinated chicken, deep-fried.",
+            "category": "Non-Veg",
+            "price": "360"
+          },
+          {
+            "name": "CHICKEN CHILLY",
+            "description": "Stir-fried chicken in a spicy chili sauce.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "half",
+              "full"
+            ],
+            "prices": [
+              "340",
+              "220"
+            ]
+          },
+          {
+            "name": "CHICKEN CRISPY",
+            "description": "Crispy fried chicken pieces.",
+            "category": "Non-Veg",
+            "price": "400"
+          },
+          {
+            "name": "CHICKEN CHILLY GREVY",
+            "description": "Chicken and vegetables in a spicy chili gravy.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "half",
+              "full"
+            ],
+            "prices": [
+              "380",
+              "260"
+            ]
+          },
+          {
+            "name": "CHICKEN HOT GARLIC",
+            "description": "Chicken stir-fried in a spicy garlic sauce.",
+            "category": "Non-Veg",
+            "price": "360"
+          },
+          {
+            "name": "CHICKEN HOT GARLIC GRAVY",
+            "description": "Chicken in a spicy hot garlic gravy.",
+            "category": "Non-Veg",
+            "price": "400"
+          },
+          {
+            "name": "CHICKEN LOLLYPOP (OIL FRY)",
+            "description": "Chicken wings marinated and deep-fried.",
+            "category": "Non-Veg",
+            "price": "300"
+          },
+          {
+            "name": "CHICKEN LOLLYPOP MASALA",
+            "description": "Chicken lollypop tossed in a spicy masala.",
+            "category": "Non-Veg",
+            "price": "340"
+          },
+          {
+            "name": "CHICKEN LOLLYPOP GRAVY",
+            "description": "Chicken lollypop in a rich gravy.",
+            "category": "Non-Veg",
+            "price": "380"
+          }
+        ]
+      },
+      {
+        "subcategory": "Non-Veg Rice",
+        "dishes": [
+          {
+            "name": "CHICKEN COMBINATION RICE",
+            "description": "A combination of different flavored fried rice with chicken.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "CHICKEN TRIPLE RICE",
+            "description": "A combination of fried rice, noodles, and spicy chicken gravy.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "340",
+              "220"
+            ]
+          },
+          {
+            "name": "CHICKEN MANCHURIAN RICE",
+            "description": "Fried rice served with chicken manchurian gravy.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "340",
+              "220"
+            ]
+          },
+          {
+            "name": "EGG SHINGAPURI RICE",
+            "description": "Spicy Singapore-style fried rice with eggs.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "180"
+            ]
+          },
+          {
+            "name": "EGG HONGKONG RICE",
+            "description": "Hongkong-style fried rice with eggs.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "180"
+            ]
+          },
+          {
+            "name": "CHICKEN SHINGAPURI RICE",
+            "description": "Spicy Singapore-style fried rice with chicken.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "CHICKEN HONGKONG RICE",
+            "description": "Hongkong-style fried rice with chicken.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "EGG FRIED RICE",
+            "description": "Stir-fried rice with eggs.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "280",
+              "180"
+            ]
+          },
+          {
+            "name": "EGG SCHEZWAN RICE",
+            "description": "Spicy stir-fried rice with eggs and Schezwan sauce.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "280",
+              "180"
+            ]
+          },
+          {
+            "name": "EGG TRIPLE RICE",
+            "description": "A combination of fried rice, noodles, and spicy egg gravy.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "EGG COMBINATION RICE",
+            "description": "A mix of different flavored fried rice with eggs.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "180"
+            ]
+          },
+          {
+            "name": "CHICKEN FRIED RICE",
+            "description": "Stir-fried rice with chicken.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "200"
+            ]
+          },
+          {
+            "name": "CHICKEN SCHEZWAN RICE",
+            "description": "Spicy stir-fried rice with chicken and Schezwan sauce.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "200"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "Non-Veg Noodles",
+        "dishes": [
+          {
+            "name": "EGG HAKKA NOODLES",
+            "description": "Stir-fried noodles with eggs and vegetables.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "280",
+              "180"
+            ]
+          },
+          {
+            "name": "EGG SCHEZWAN NOODLES",
+            "description": "Spicy stir-fried noodles with eggs, vegetables, and Schezwan sauce.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "280",
+              "180"
+            ]
+          },
+          {
+            "name": "EGG TRIPLE NOODLES",
+            "description": "A combination of different stir-fried noodles with eggs.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "CHICKEN HAKKA NOODLES",
+            "description": "Stir-fried noodles with chicken and vegetables.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "200"
+            ]
+          },
+          {
+            "name": "CHICKEN SCHEZWAN NOODLES",
+            "description": "Spicy stir-fried noodles with chicken, vegetables, and Schezwan sauce.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "200"
+            ]
+          },
+          {
+            "name": "CHICKEN TRIPLE NOODLES",
+            "description": "A combination of different stir-fried noodles with chicken.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "340",
+              "220"
+            ]
+          },
+          {
+            "name": "CHICKEN MANCHURIAN NOODLES",
+            "description": "Stir-fried noodles with chicken manchurian balls.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "340",
+              "220"
+            ]
+          },
+          {
+            "name": "EGG SHINGAPURI NOODLES",
+            "description": "Spicy Singapore-style stir-fried noodles with eggs and vegetables.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "180"
+            ]
+          },
+          {
+            "name": "EGG HONGKONG NOODLES",
+            "description": "Hongkong-style stir-fried noodles with eggs and vegetables.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "300",
+              "180"
+            ]
+          },
+          {
+            "name": "CHICKEN SHINGAPURI NOODLES",
+            "description": "Spicy Singapore-style stir-fried noodles with chicken and vegetables.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          },
+          {
+            "name": "CHICKEN HONGKONG NOODLES",
+            "description": "Hongkong-style stir-fried noodles with chicken and vegetables.",
+            "category": "Non-Veg",
+            "variantType": "portion",
+            "variants": [
+              "full",
+              "half"
+            ],
+            "prices": [
+              "320",
+              "200"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
