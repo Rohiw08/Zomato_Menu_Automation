@@ -7,7 +7,7 @@ import {
     waitForSelectorAndFill,
     waitForSelectorToBeHidden,
     shortPause,
-} from "./utils.js";
+} from "../process_menu/utils.js";
 
 puppeteer.use(StealthPlugin());
 

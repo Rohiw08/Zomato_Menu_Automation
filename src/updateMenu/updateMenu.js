@@ -1,6 +1,4 @@
 import { readFileSync, writeFileSync } from 'fs';
-
-// Use config/paths for file locations
 import { PATHS } from '../paths.js';
 
 let menu;
@@ -12,6 +10,8 @@ try {
     process.exit(1);
 }
 
+updatePriceByMultiple = 1;
+
 for (const category of menu) {
     for (const subcategory of category.subCategories) {
         for (const dish of subcategory.dishes) {
@@ -19,10 +19,10 @@ for (const category of menu) {
                 dish.prices = dish.prices.split(',').map(p => p.trim());
             }
             if (typeof dish.price === 'string' && !isNaN(Number(dish.price))) {
-                dish.price = (Number(dish.price) * 2).toString();
+                dish.price = (Number(dish.price) * updatePriceByMultiple).toString();
             }
             if (Array.isArray(dish.prices)) {
-                dish.prices = dish.prices.map(p => (Number(p) * 2).toString());
+                dish.prices = dish.prices.map(p => (Number(p) * updatePriceByMultiple).toString());
             }
         }
     }
